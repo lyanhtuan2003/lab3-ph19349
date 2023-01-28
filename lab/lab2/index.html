@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="testerr.js"></script>
+</head>
+
+<body>
+    <h1>Bạn thì kinh rồi</h1>
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea>
+    <button>Nhấn</button> -->
+    <script>
+        //2.2
+        // document.body.append(document.createElement('textarea'));
+        // document.body.append(document.createElement('button'));
+        // document.querySelector('button').addEventListener('click', function () {
+        //     const text = document.querySelector('textarea').value;
+        //     const rows = text.split("\n");
+        //     // console.log(rows)
+
+        //     for (const row of rows) {
+        //         const [firrst, seconr] = row.toLowerCase().trim().split('_');
+        //         // console.log(row, firrst, seconr);
+
+        //         const output = `${firrst}${seconr.replace(
+        //             seconr[0],
+        //             seconr[0].toUpperCase()
+        //         )}`;
+        //         console.log(output.padEnd(20, ''));
+
+        //     }
+        // })
+        // 2.4
+        const tuan = function () {
+            let hedear = document.body.querySelector('h1');
+            hedear.style.color = 'red';
+            document.querySelector('body').addEventListener('click', function () {
+                hedear.style.color = "blue"
+            })
+        }()
+    </script>
+</body>
+
+</html>
+<!-- underscore_case
+first_name
+some_variable
+calculate_AGE
+delayer_departure -->
